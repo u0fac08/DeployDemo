@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<_c buildID="I20241203_0206" certificateAuthority="KEY_1024_BITS"
+    comments="Project created on February 26, 2025"
+    creationVersion="11.0.4" domain="default" extDocPrefix=""
+    name="DeployDemo" owner="Mark" rulesCacheUri="%%PROJECT/ROOT%%Rules"
+    updateResultsDbOnItemChange="false" uuid="00000195-447a-80d2-0000-00ba7b6a3d2c">
+    <rootEnvironmentConfig isOverridingSecretsNamespace="false" overridingSecretsNamespace=""/>
+    <dateTimeConfig date="yyyy/MM/dd" dateTime="dd-MMM-yyyy HH:mm:ss" time="HH:mm:ss.SSS"/>
+    <serverSettings ghRepositoryURL="https://localhost:5443/RTCP"
+        trustSource="INBUILT_CA" trustStorePath="">
+        <dbConnectionParameters maxConnections="1" poolName="DefaultPoolName">
+            <connectionParams ZOSEnv="false"
+                dpsHost="http://&lt;hostname>:&lt;port>/api/v1/profile"
+                dpsOption="false" dpsPass="#com.ghc.1!de5e" dpsUser=""
+                driverClass="com.ibm.db2.jcc.DB2Driver"
+                password="#com.ghc.1!236240E4211C7E41129C4AC94468E34EA2E4"
+                url="jdbc:db2://192.168.91.141:50000/RITRPT"
+                useSsl="false" user="db2admin">
+                <dpsSsl useSsl="false"/>
+                <stubSettings maxProcCallCount="10000"
+                    maxResultSetRowCount="10000" maxRowCount="10000"
+                    password="#com.ghc.1!ec7b"
+                    procedureLearningBehaviour="1" schema="" url=""
+                    useIntegratedDB="true" useSsl="false" user=""/>
+                <storedProcedureFilter catalogFilterEnabled="false"
+                    catalogFilterPattern=""
+                    procedureFilterEnabled="false"
+                    procedureFilterPattern="" schemaFilterEnabled="true"
+                    schemaFilterPattern="db2admin"
+                    storedProceduresRetrievalEnabled="false" useConnectionUsername="true"/>
+                <timestampFormatting timestampFormatZero="false"
+                    timestampFormattingEnabled="false" timestampPrecision="9"/>
+                <proxy useProxy="false"/>
+            </connectionParams>
+        </dbConnectionParameters>
+        <automationServer enabled="false" projectId="-1"
+            projectName="--No Project Selected--" publishResults="false"
+            trustSource="TRUST_ALL" trustStorePassword="#com.ghc.1!ca86"
+            trustStorePath="" url=""/>
+    </serverSettings>
+    <permissionsSettings ADtrustSource="NONE"
+        ADtrustStorePassword="#com.ghc.1!f7f7" ADtrustStorePath=""
+        autoLogin="true" host="WIN-FVB9GI2IC9P"
+        permFactId="ldap.permissions.factory.none" port="389" pswd="VRHnryx9K3/kMLrRCEVqqsjbUtiahTkg48Cohljsylg=$cwncfEacl/6xQadJOrEUHkISfdBWHwHIW5jaR1tdmSk="/>
+</_c>
