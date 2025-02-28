@@ -3,23 +3,22 @@
     comments="Project created on February 26, 2025"
     creationVersion="11.0.4" domain="default" extDocPrefix=""
     name="DeployDemo" owner="Mark" rulesCacheUri="%%PROJECT/ROOT%%Rules"
-    updateResultsDbOnItemChange="false" uuid="00000195-447a-80d2-0000-00ba7b6a3d2c">
+    updateResultsDbOnItemChange="true" uuid="00000195-447a-80d2-0000-00ba7b6a3d2c">
     <rootEnvironmentConfig isOverridingSecretsNamespace="false" overridingSecretsNamespace=""/>
     <dateTimeConfig date="yyyy/MM/dd" dateTime="dd-MMM-yyyy HH:mm:ss" time="HH:mm:ss.SSS"/>
-    <serverSettings ghRepositoryURL="https://localhost:5443/RTCP"
-        trustSource="INBUILT_CA" trustStorePath="">
+    <serverSettings ghRepositoryURL="https://192.168.91.141:5443/RTCP"
+        trustSource="TRUST_ALL" trustStorePassword="#com.ghc.1!48a2" trustStorePath="">
         <dbConnectionParameters maxConnections="1" poolName="DefaultPoolName">
             <connectionParams ZOSEnv="false"
                 dpsHost="http://&lt;hostname>:&lt;port>/api/v1/profile"
-                dpsOption="false" dpsPass="#com.ghc.1!de5e" dpsUser=""
+                dpsOption="false" dpsPass="#com.ghc.1!b3c6" dpsUser=""
                 driverClass="com.ibm.db2.jcc.DB2Driver"
-                password="#com.ghc.1!236240E4211C7E41129C4AC94468E34EA2E4"
-                url="jdbc:db2://192.168.91.141:50000/RITRPT"
-                useSsl="false" user="db2admin">
+                password="#com.ghc.1!576b117555210CEF6A5040E421137E1A1293"
+                url="jdbc:db2://192.168.91.141:50000/RITRPT" user="db2admin">
                 <dpsSsl useSsl="false"/>
                 <stubSettings maxProcCallCount="10000"
                     maxResultSetRowCount="10000" maxRowCount="10000"
-                    password="#com.ghc.1!ec7b"
+                    password="#com.ghc.1!7943"
                     procedureLearningBehaviour="1" schema="" url=""
                     useIntegratedDB="true" useSsl="false" user=""/>
                 <storedProcedureFilter catalogFilterEnabled="false"
@@ -35,11 +34,18 @@
         </dbConnectionParameters>
         <automationServer enabled="false" projectId="-1"
             projectName="--No Project Selected--" publishResults="false"
-            trustSource="TRUST_ALL" trustStorePassword="#com.ghc.1!ca86"
+            trustSource="TRUST_ALL" trustStorePassword="#com.ghc.1!b7d7"
             trustStorePath="" url=""/>
     </serverSettings>
     <permissionsSettings ADtrustSource="NONE"
-        ADtrustStorePassword="#com.ghc.1!f7f7" ADtrustStorePath=""
+        ADtrustStorePassword="#com.ghc.1!5360" ADtrustStorePath=""
         autoLogin="true" host="WIN-FVB9GI2IC9P"
         permFactId="ldap.permissions.factory.none" port="389" pswd="VRHnryx9K3/kMLrRCEVqqsjbUtiahTkg48Cohljsylg=$cwncfEacl/6xQadJOrEUHkISfdBWHwHIW5jaR1tdmSk="/>
+    <resultPublishers disableAll="false"/>
+    <publishedResourceInfo>
+        <info domain="default"
+            serverUrl="https://192.168.91.141:5443/RTCP" vMajor="1" vMinor="3">
+            <resource id="-1649304:1954c7861cf:-7dc5"/>
+        </info>
+    </publishedResourceInfo>
 </_c>
