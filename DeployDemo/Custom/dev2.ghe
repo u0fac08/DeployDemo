@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<editableResource createdTimestamp="1744910234558" createdUser="Mark"
-    id="8f687bf:196446ba187:-7831" type="environment_resource"
-    updatedTimestamp="1744910234558" updatedUser="Mark" version="1.0">
-    <loggingConfiguration debug="false" resultWriterLoggingLevel="FULL" writeStubEventsToDB="false"/>
-    <resourceConfig isOverridingSecretsNamespace="false"/>
-</editableResource>

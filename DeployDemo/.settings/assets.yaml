@@ -2,111 +2,37 @@ name: DeployDemo
 projectReferences: 
 resources: 
   - name: Custom
+    missing: true
     resources: 
       - name: Dev1.ghe
+        missing: true
   - name: Logical
+    missing: true
     resources: 
-      - name: KOC-TestCases.scm
-        resources: 
-          - name: 'auth POST.opr'
-            resources: 
-              - name: TC100.tsq
-                type: com.ibm.rational.test.rit.testType
-                dependencies: 
-                  - path: /DeployDemo
-                    type: tsqProject
-          - name: 'custcards POST.opr'
-            resources: 
-              - name: TC200.tsq
-                type: com.ibm.rational.test.rit.testType
-                dependencies: 
-                  - path: /DeployDemo
-                    type: tsqProject
       - name: 'Test Cases.scm'
+        missing: true
         resources: 
           - name: 'Loans_Request - Loans_Response.opr'
+            missing: true
             resources: 
               - name: CreditCardTC100.tsq
-                type: com.ibm.rational.test.rit.testType
-                dependencies: 
-                  - path: /DeployDemo
-                    type: tsqProject
-              - name: TC66666.tsq
-                type: com.ibm.rational.test.rit.testType
-                dependencies: 
-                  - path: /DeployDemo
-                    type: tsqProject
+                missing: true
           - name: 'auth POST.opr'
+            missing: true
             resources: 
-              - name: LoginTC200.tsq
-                type: com.ibm.rational.test.rit.testType
-                dependencies: 
-                  - path: /DeployDemo
-                    type: tsqProject
-              - name: TC500.tsq
-                type: com.ibm.rational.test.rit.testType
-                dependencies: 
-                  - path: /DeployDemo
-                    type: tsqProject
               - name: TC5000.tsq
-                type: com.ibm.rational.test.rit.testType
-                dependencies: 
-                  - path: /DeployDemo
-                    type: tsqProject
+                missing: true
               - name: TCDemo0415100.tsq
-                type: com.ibm.rational.test.rit.testType
-                dependencies: 
-                  - path: /DeployDemo
-                    type: tsqProject
+                missing: true
           - name: 'custcards POST.opr'
+            missing: true
             resources: 
-              - name: CreditCardTC5000.tsq
-                type: com.ibm.rational.test.rit.testType
-                dependencies: 
-                  - path: /DeployDemo
-                    type: tsqProject
-              - name: CreditCardsTC100.tsq
-                type: com.ibm.rational.test.rit.testType
-                dependencies: 
-                  - path: /DeployDemo
-                    type: tsqProject
-              - name: TC510.tsq
-                type: com.ibm.rational.test.rit.testType
-                dependencies: 
-                  - path: /DeployDemo
-                    type: tsqProject
               - name: TCDemo0415200.tsq
-                type: com.ibm.rational.test.rit.testType
-                dependencies: 
-                  - path: /DeployDemo
-                    type: tsqProject
+                missing: true
       - name: Tests
+        missing: true
         resources: 
           - name: TC100.tsq
-            type: com.ibm.rational.test.rit.testType
-            dependencies: 
-              - path: /DeployDemo
-                type: tsqProject
+            missing: true
           - name: TC200.tsq
-            type: com.ibm.rational.test.rit.testType
-            dependencies: 
-              - path: /DeployDemo
-                type: tsqProject
-      - name: 'Virtual Services.scm'
-        resources: 
-          - name: 'auth POST.opr'
-            resources: 
-              - name: LoginTC500.tsq
-                type: com.ibm.rational.test.rit.testType
-                dependencies: 
-                  - path: /DeployDemo
-                    type: tsqProject
-      - name: VirtualServiceTester.scm
-        resources: 
-          - name: 'auth POST.opr'
-            resources: 
-              - name: VTC100.tsq
-                type: com.ibm.rational.test.rit.testType
-                dependencies: 
-                  - path: /DeployDemo
-                    type: tsqProject
+            missing: true

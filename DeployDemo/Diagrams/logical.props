@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>logical.props Diagram Properties</comment>
+<entry key="-1649304:1954c7861cf:-7dc7">12.0,91.0</entry>
+<entry key="-1649304:1954c7861cf:-7dca">12.0,76.0</entry>
+<entry key="-1649304:1954c7861cf:-7eae">798.0,210.5</entry>
+<entry key="-4275fd78:19635eb3713:-7596">254.0,213.0</entry>
+<entry key="-4275fd78:19635eb3713:-7678">254.0,458.5</entry>
+<entry key="-6a69e3d8:196828843e3:-762a">130.0,145.0</entry>
+<entry key="-6a69e3d8:196828843e3:-7631">130.0,130.0</entry>
+<entry key="1d7bfafe:195851fa85b:-7dd9">254.0,91.0</entry>
+<entry key="23af0489:1954ca57c7d:-4cd4">254.0,335.0</entry>
+<entry key="23af0489:1954ca57c7d:-4cd5">254.0,198.0</entry>
+<entry key="46ac694e:196aa7d56db:-5dd2">885.0,360.0</entry>
+<entry key="77a8a1c0:1956bfbb572:-7e47">12.0,410.0</entry>
+<entry key="77a8a1c0:1956bfbb572:-7e4c">12.0,395.0</entry>
+<entry key="8f687bf:196446ba187:-7c3e">12.0,263.0</entry>
+<entry key="8f687bf:196446ba187:-7c47">12.0,248.0</entry>
+<entry key="b33889f:19667a88460:-5a77">97.5,112.5</entry>
+<entry key="b33889f:19667a88460:-5b26">32.5,47.5</entry>
+<entry key="b33889f:19667a88460:-5b27">65.0,65.0</entry>
+<entry key="b33889f:19667a88460:-6c99">496.0,91.0</entry>
+<entry key="b33889f:19667a88460:-6c9a">496.0,76.0</entry>
+<entry key="b33889f:19667a88460:-77ac">496.0,385.0</entry>
+<entry key="b33889f:19667a88460:-7df1">496.0,263.0</entry>
+<entry key="b33889f:19667a88460:-7dfa">496.0,248.0</entry>
+</properties>
